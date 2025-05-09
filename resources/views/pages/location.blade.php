@@ -14,7 +14,7 @@
       var lon = position.coords.longitude;
       var city;
 
-      var geocodingAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&key=AIzaSyDQ69wZR1GPEeLAxyu-vkSSo_dzpZTOV2c";
+      var geocodingAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+lat+","+lon+"&key=###";
 
       $.getJSON(geocodingAPI, function (json) {
           if (json.status == "OK") {
