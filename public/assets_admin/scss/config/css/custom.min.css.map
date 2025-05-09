@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../saas/custom.scss"
+    ],
+    "names": [],
+    "file": "custom.min.css"
+}
